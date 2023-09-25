@@ -1,54 +1,65 @@
 <style>
     .link-a {
-        color: rgb(0, 113, 113);
+      color: rgb(0, 113, 113);
     }
-</style>
+    .link-a:hover {
+      color: rgb(182, 117, 19);
+    }
 
-<style>
+
     .p-item {
-        font-size: 23px;
-        font-weight: bold;
+      font-size: 23px;
+      font-weight: bold;
     }
-</style>
 
-<style>
+
     .p-price_stock {
-        color: rgb(0, 118, 0);
-        font-weight: bold;
+      color: rgb(0, 118, 0);
+      font-weight: bold;
     }
-</style>
 
-<style>
+
     .button-cart {
-        background-color: rgb(255, 216, 29);
-        height: 32px;
-        width: 115px;
-        border: none;
-        border-radius: 18px;
-        margin-right: 10px;
-        cursor: pointer;
+      background-color: rgb(255, 216, 29);
+      height: 32px;
+      width: 115px;
+      border: none;
+      border-radius: 18px;
+      margin-right: 10px;
+      cursor: pointer;
     }
-</style>
+    .button-cart:hover {
+      background-color: rgb(217, 185, 26);
+    }
+    .button-cart:active {
+      opacity: 0.6;
+    }
 
-<style>
+
     .button-buy {
-        background-color: rgb(255, 164, 28);
-        height: 32px;
-        width: 115px;
-        border: none;
-        border-radius: 18px;
-        margin-right: 10px;
-        cursor: pointer;
+      background-color: rgb(255, 164, 28);
+      height: 32px;
+      width: 115px;
+      border: none;
+      border-radius: 18px;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+    .button-buy:hover {
+      background-color: rgb(225, 145, 26);
+    }
+    .button-buy:active {
+      opacity: 0.6;
     }
 </style>
 
-<a class ="a-link" href="https://www.amazon.com/">
-    Back to Amazon
+<a class ="link-a" href="https://www.amazon.com/" target="blank">
+  Back to Amazon
 </a>
 
 <p class ="p-item">Nike Black Running Shoes</p>
 <p class ="p-price_stock">$39 - in stock</p>
 <p>Free delivery tomorrow.</p>
 
-<button class ="button-cart">Add to cart</button>
+<button class ="button-cart">Add to Cart</button>
 <button class ="button-buy">Buy now</button>
