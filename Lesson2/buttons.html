@@ -1,4 +1,8 @@
 <style>
+  button {
+    vertical-align: top;
+  }
+  
   .subscribe-button {
     background-color: #cc0000;
     color: white;
@@ -12,7 +16,7 @@
     margin-right: 8px;
     margin-left: 20px;
     transition: opacity 0.1s;
-    vertical-align: top;
+    
   }
   .subscribe-button:hover {
     opacity: 0.75;
@@ -38,6 +42,7 @@
     transition: color 0.3s;
     transition: opacity 0.1s,
       color 1s;
+    
   }
   .join-button:hover {
     background-color: rgb(6, 95, 212);
@@ -62,12 +67,67 @@
     cursor: pointer;
     margin-left: 8px;
     transition: box-shadow 0.15s;
-    vertical-align: top;
+    
   }
   .tweet-button:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
   }
+
+  .stretch-button {
+    background-color: #008200;
+    margin-left: 8px;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.15s;
+    
+  }
+
+  .stretch-button:hover {
+    padding: 20px;
+  }
+
+  .three-D-button {
+    background-color: #008200;
+    margin-left: 8px;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.85);
+  }
+
+  .three-D-button:active {
+    margin-top: 3px;
+    margin-left: 11px;
+    box-shadow: none;
+  }
+
+  .slinky-button {
+    background-color: #008200;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    
+    transition: 0.2s;
+  }
+
+  .slinky-button:hover {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 </style>
+
 
 <button class="subscribe-button">
   SUBSCRIBE
@@ -79,4 +139,24 @@
 
 <button class="tweet-button">
   Tweet
+</button>
+
+<button class="stretch-button">
+  Stretch
+</button>
+
+<button class="three-D-button">
+  3D Click
+</button>
+
+<button class="slinky-button">
+  One
+</button>
+
+<button class="slinky-button">
+  Two
+</button>
+
+<button class="slinky-button">
+  Three
 </button>
