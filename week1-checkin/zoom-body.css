@@ -1,0 +1,42 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .dog-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 60px;
+  }
+
+  .dog-preview {
+    height: 400px;
+    width: 300px;
+    background-color: lightblue;
+    border-radius: 2px;
+  }
+
+  .dog-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-left: 25px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, .3);
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+  }
+
+  .dog-name {
+    margin-top: 5px;
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-left: 5px;
+  }
+
+  .dog-bio {
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(78, 78, 78);
+    padding-left: 5px;
+  }
